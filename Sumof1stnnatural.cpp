@@ -1,4 +1,4 @@
-//Print first n natural numbers
+//Print sum of first n natural numbers
 #include<iostream>
 using namespace std;
 int main()
