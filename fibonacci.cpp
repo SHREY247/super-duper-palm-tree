@@ -8,6 +8,9 @@ int main()
 	int N;
 	cout<<"Enter N\n";
 	cin>>N;
+	if(N==0)
+		cout<<"T(0) of the fibonacci series is 0\n";
+	else{
 	int prev=0,curr=1,i;
 	for(i=2; i<=N;i++)				//We'll start from term 2 which would be sum of t(0) and t(1)
 	{
@@ -17,6 +20,8 @@ int main()
 	}
 	
 	cout<<"T("<<N<<") of fibonacci series would be "<<curr<<endl;
+		
+	}
 	return 0;
 	
 }
