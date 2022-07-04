@@ -6,7 +6,7 @@ int main()
 	int N;
 	cout<<"Enter N\n";
 	cin>>N;
-	int sum=0,t=1;
+	long long sum=0,t=1;
 	for(int i=1;i<=N;i++)
 	{
 		sum += t;
