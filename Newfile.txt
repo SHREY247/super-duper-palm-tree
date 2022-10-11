@@ -1,1 +1,2 @@
-New file added
+New file added 
+Main modified for conflict
