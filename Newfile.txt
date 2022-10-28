@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-New file added 
-Main modified for conflict
-=======
-This is branch 
->>>>>>> Branch
