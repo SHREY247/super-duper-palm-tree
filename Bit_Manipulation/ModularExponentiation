@@ -1,0 +1,25 @@
+//12^25 = 12* (12^2).12 and so on.......
+#include <iostream>
+using namespace std;
+ 
+ 
+int power(int x, int y, int mod)
+{
+    // your code goes here
+    int res=1;
+    x=x%mod;  //Update x if it is more than or equal to p
+    
+    if(x==0)
+    return 0; //In case x is divisible by mod
+    
+    while(y>0){
+        //If y is odd, multiply x with result
+        if(y&1){
+            res=(res*x)%mod;
+        }
+        
+        y=y>>1;
+        x=(x*x)%mod;
+    }
+    return res;
+}
