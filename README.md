@@ -1,2 +1,2 @@
 # super-duper-palm-tree
-This repository contains commonly asked important codes in C++
+This repository contains solutions to basic Coding problems in C++
